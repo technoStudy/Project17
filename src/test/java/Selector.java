@@ -1,4 +1,3 @@
-package technoStudy.Proje17;
 import org.openqa.selenium.By;
 
 public class Selector {
@@ -22,6 +21,7 @@ public class Selector {
     public static By schooldep1 =By.cssSelector("mat-option:nth-child(1)");
     public static By sectionselect =By.cssSelector("[formcontrolname=\"section\"] span");
     public static By section1 =By.cssSelector("mat-option:nth-child(1)");
+    public static By section2 =By.cssSelector("mat-option:nth-child(2)");
     public static By citizenshipselect =By.cssSelector("[formgroupname=\"citizenship\"] mat-select span");
     public static By citizen1 =By.cssSelector("mat-option:nth-child(100)");
     public static By doctype =By.cssSelector("[formgroupname=\"documentInfo\"]>mat-form-field:nth-child(1)");
