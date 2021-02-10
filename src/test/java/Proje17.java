@@ -113,7 +113,7 @@ public class Proje17 {
 
     @DataProvider(name = "studentsExcel")
     public Object[][] studentsExcel() throws IOException {
-        ExcelReader reader = new ExcelReader("src/test/resources/students.xlsx");
+        ExcelReader reader = new ExcelReader("src/test/resources/data.xlsx");
         List<Map<String, String>> listOfMaps = reader.getListOfMaps();
         Object[][] data = new Object[listOfMaps.size()][1];
         int index = 0;
